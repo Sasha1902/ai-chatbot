@@ -1,0 +1,112 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["hallo","hi","hey","guten tag","servus","hallo chatbot"],
+      "responses": ["Hallo! Wie kann ich helfen?", "Hi, schön dich zu sehen!", "Hallo! Bereit für eine AI-Lektion?"]
+    },
+    {
+      "tag": "smalltalk_howareyou",
+      "patterns": ["wie geht es dir","wie gehts","alles gut"],
+      "responses": ["Mir geht’s gut, danke der Nachfrage! Und dir?", "Alles bestens! Bereit für eine AI-Lektion?"]
+    },
+    {
+      "tag": "smalltalk_fine",
+      "patterns": ["gut","mir gehts gut","alles super","alles bestens"],
+      "responses": ["Freut mich zu hören!", "Schön, dass es dir gut geht!", "Super! Weiter so!"]
+    },
+    {
+      "tag": "smalltalk_notgood",
+      "patterns": ["mir gehts schlecht","nicht gut","schlecht","kann besser sein"],
+      "responses": ["Oh, das tut mir leid. Willst du darüber sprechen?", "Schade zu hören. Hoffentlich wird es bald besser."]
+    },
+    {
+      "tag": "smalltalk_day",
+      "patterns": ["wie war dein tag","was machst du","wie laeuft es"],
+      "responses": ["Ich chatte gerade mit dir 🙂", "Mein Tag läuft gut, danke der Nachfrage!", "Alles läuft prima!"]
+    },
+    {
+      "tag": "hilfe",
+      "patterns": ["ich brauche hilfe","hilfe","kannst du mir helfen","was kann ich dich fragen"],
+      "responses": ["Ich beantworte Fragen zu KI, ML, Deep Learning und Chatbots."]
+    },
+    {
+      "tag": "ki_erklären",
+      "patterns": ["was ist ki","kuenstliche intelligenz","erklaere kuenstliche intelligenz","was bedeutet ki","ki definition"],
+      "responses": ["KI steht für Künstliche Intelligenz. Sie ermöglicht Maschinen, aus Daten zu lernen und Entscheidungen zu treffen."]
+    },
+    {
+      "tag": "ml_erklären",
+      "patterns": ["was ist machine learning","maschinelles lernen","erklaere machine learning","ml definition","machine learning bitte"],
+      "responses": ["Machine Learning ist ein Teilgebiet der KI, bei dem Maschinen aus Daten lernen und Vorhersagen treffen."]
+    },
+    {
+      "tag": "dl_erklären",
+      "patterns": ["was ist deep learning","erklaere deep learning","deep learning definition","dl bitte"],
+      "responses": ["Deep Learning ist ein Teilbereich des Machine Learning, der auf künstlichen neuronalen Netzen basiert."]
+    },
+    {
+      "tag": "bot_vorstellung",
+      "patterns": ["wer bist du","was bist du","stell dich vor","erzaehl mir von dir"],
+      "responses": ["Ich bin dein Lern-Chatbot für AI-Weiterbildung. Ich beantworte Fragen zu KI, ML, Deep Learning und Chatbots."]
+    },
+    {
+      "tag": "verabschiedung",
+      "patterns": ["tschüss","auf wiedersehen","bye","bis bald","bis spaeter"],
+      "responses": ["Tschüss! Bis bald.", "Auf Wiedersehen!", "Viel Spaß beim Lernen!"]
+    },
+    {
+      "tag": "smalltalk_thanks",
+      "patterns": ["danke","vielen dank","thx"],
+      "responses": ["Gern geschehen!", "Immer wieder gern!"]
+    },
+    {
+    "tag": "lob",
+    "patterns": ["gute antwort", "nice", "cool", "gut erklärt"],
+    "responses": ["Danke!", "Freut mich 😄"]
+    },
+    {
+    "tag": "smalltalk_time",
+    "patterns": ["wie spät ist es", "uhrzeit", "aktuelle zeit"],
+    "responses": ["Ich habe keine Uhr, aber du kannst auf deinem Gerät nachsehen 😉"]
+    },
+    {
+    "tag": "rl_erklären",
+    "patterns": [
+      "was ist reinforcement learning",
+      "reinforcement learning bitte",
+      "erkläre reinforcement learning",
+      "rl definition"
+    ],
+    "responses": [
+      "Reinforcement Learning ist ein Teilbereich des Machine Learning, bei dem Agenten durch Belohnungen lernen.",
+      "Beim Reinforcement Learning lernt ein Agent durch Feedback, was gute oder schlechte Aktionen sind."
+    ]
+    },
+    {
+      "tag": "reinforcement_learning",
+      "patterns": ["was ist reinforcement learning", "erkläre reinforcement learning", "reinforcement learning bitte"],
+      "responses": ["Reinforcement Learning ist eine Art von Machine Learning, bei der ein Agent durch Belohnungen und Strafen lernt, Entscheidungen zu treffen."]
+    },
+    {
+      "tag": "natural_language_processing",
+      "patterns": ["was ist nlp", "erkläre natural language processing", "nlp definition", "nlp bitte"],
+      "responses": ["Natural Language Processing (NLP) beschäftigt sich damit, dass Computer menschliche Sprache verstehen und verarbeiten können."]
+    },
+    {
+      "tag": "computer_vision",
+      "patterns": ["was ist computer vision", "erkläre computer vision", "computer vision definition", "cv bitte"],
+      "responses": ["Computer Vision ist ein Bereich der KI, der Computern ermöglicht, Bilder und Videos zu erkennen und zu interpretieren."]
+    },
+    {
+      "tag": "überwachtes_lernen",
+      "patterns": ["was ist überwachte lernen", "erkläre überwachte lernen", "supervised learning bitte"],
+      "responses": ["Überwachtes Lernen ist ein Machine-Learning-Verfahren, bei dem das Modell aus gekennzeichneten Daten lernt, um Vorhersagen zu treffen."]
+    },
+    {
+      "tag": "unüberwachtes_lernen",
+      "patterns": ["was ist unüberwachtes lernen", "erkläre unüberwachtes lernen", "unsupervised learning bitte"],
+      "responses": ["Unüberwachtes Lernen ist ein Machine-Learning-Verfahren, bei dem das Modell Muster in unmarkierten Daten erkennt."]
+    }
+  ]
+}
